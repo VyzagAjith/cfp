@@ -2,7 +2,6 @@
 #include <stdlib.h>
 #include <math.h>
 #include <ctype.h>
-#include <conio.h>
 
 //Keywords 
 typedef enum {
@@ -20,12 +19,15 @@ typedef enum {
     TOK_VOID,
     TOK_GLOBAL,
     TOK_WINDOW,
-    
+    TOK_MAIN,
+    TOK_RETURN,
+    TOK_TYPEDEF,
 }KEYWORD_TOKS;
 
 //Identifiers
 typedef enum {
-    TOK_IDEN,
+    TOK_VARIABLE,
+    TOK_ENUM_VARIABLE,
 }IDENTIFIER_TOKS;
 
 //Constants
