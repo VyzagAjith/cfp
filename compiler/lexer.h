@@ -87,6 +87,6 @@ typedef enum {
     TOK_COLON,
 }SYMBOLS_TOKS;
 
-void LEX_source_code(const char *source);
+void TOKENIZE(const char *source);
 
 #endif
