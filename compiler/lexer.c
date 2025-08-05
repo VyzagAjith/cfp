@@ -1,12 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <ctype.h>
 #include "lexer.h"
-void LEX_source_code(const char *source)
+void TOKENIZE(const char *source)
     {
 	FILE *file = fopen(source, "r");
 	
 	if (!file){
-	    perror("No file with the name given");
+	    perror("");
 	    exit(1);
 	}
 	else if (file == NULL){
@@ -16,10 +17,6 @@ void LEX_source_code(const char *source)
 	else 
 	    printf("Reading the file: %s\n", source);
 	
-	int i;
-	while ((i = fgetc(file)) != EOF){
-	    putchar(i);
-	}
-	fclose(file);
     }
+
 
