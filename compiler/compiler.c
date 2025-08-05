@@ -1,7 +1,15 @@
 #include <stdio.h>
-
-int main() 
+#include <stdlib.h>
+#include "lexer.h"
+    
+int main(int argc,char *argv[]) 
 {
-    printf("Hello, World\n");   //Works perfectly 
-return 0;
+    if (argc<2){
+	fprintf(stderr,"Do %s <file_name>\n", argv[0]);
+	return(1);
+    }
+    
+    LEX_source_code(argv[1]);
+
 }
+
