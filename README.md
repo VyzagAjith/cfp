@@ -10,5 +10,5 @@ You may choose either license when using, modifying, or
 redistributing CFP.
 
 See:
-- [LICENSE-APACHE](https://github.com/VyzagAjith/cfp/blob/main/LICENSE-APACHE)
+- [LICENSE-APACHE](https://github.com/VyzagAjith/cfp/blob/main/LICENSES/Apache%20License%202.0)
 - [LICENSE-MIT](https://github.com/VyzagAjith/cfp/blob/main/LICENSE-MIT)
