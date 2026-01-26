@@ -1,3 +1,15 @@
+/*
+ * CFP Programming Language
+ *
+ * Copyright (c) 2026 Vyzag Ajith
+ *
+ * Licensed under either of:
+ *   - Apache License, Version 2.0
+ *   - MIT License
+ *
+ * You may choose which license applies.
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include "lexer.h"
